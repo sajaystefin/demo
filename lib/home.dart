@@ -11,7 +11,7 @@ class HomeView extends StatelessWidget {
       appBar: AppBar(
         title: Text('Home'),
       ),
-      body: Center(child: Text(user.name ?? "User not found")),
+      body: Center(child: Text("Hello " + (user.name ?? "User not found"))),
     );
   }
 }
